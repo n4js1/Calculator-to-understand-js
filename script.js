@@ -82,11 +82,12 @@ function handleNumber(numberString){
 
 function init(){
 document.querySelector(".calc-buttons").addEventListener("click", function(event){
-if (event.target.tagName === 'button') {
+if (event.target.tagName === 'BUTTON') {
 buttonClick(event.target.innerText.trim());
 }
 });
 }
 
 init()
+
 
